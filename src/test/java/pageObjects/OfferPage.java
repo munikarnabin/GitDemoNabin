@@ -5,7 +5,8 @@ import org.openqa.selenium.WebDriver;
 
 public class OfferPage {
 
-	
+	By searchbox =By.id("search-field");
+	By productName = By.cssSelector("tr td:nth-child(1)");
 	
 	public WebDriver driver;
 	
@@ -14,8 +15,6 @@ public class OfferPage {
 		this.driver = driver;
 	}
 
-	By searchbox =By.id("search-field");
-	By productName = By.cssSelector("tr td:nth-child(1)");
 
 	public void searchProduct(String shortName)
 	{
