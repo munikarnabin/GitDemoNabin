@@ -52,6 +52,10 @@ public class OfferPageStepDefinition {
 		//test10
 	
 		System.out.println("gitX commit practice");
+		
+		//testBranch1
+		//testBranch2
+		System.out.println("branch commit");
 	
 	}
 	

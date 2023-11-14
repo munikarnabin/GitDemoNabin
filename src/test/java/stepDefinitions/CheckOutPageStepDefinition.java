@@ -38,6 +38,8 @@ public class CheckOutPageStepDefinition {
 		Assert.assertTrue(checkOutPage.verifyPromobtn());
 		Assert.assertTrue(checkOutPage.verifyPlaceOrder());
 		
+		System.out.println("branch commit");
+		
 	}
 	
 	@Then("^user proceeds to checkout and validate the (.+) items in checkout page$")
