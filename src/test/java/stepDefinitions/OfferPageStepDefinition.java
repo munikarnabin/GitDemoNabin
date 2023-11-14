@@ -39,6 +39,8 @@ public class OfferPageStepDefinition {
 		offerPage.searchProduct(shortName);
 		Thread.sleep(3000);
 		offerPageProductName=offerPage.getTextOfProductName();
+		
+	
 	}
 	
 	public void switchToWindow()
