@@ -39,6 +39,8 @@ public class CheckOutPageStepDefinition {
 		Assert.assertTrue(checkOutPage.verifyPlaceOrder());
 		
 		System.out.println("branch commit");
+		System.out.println("branch commit gitY11");
+		System.out.println("branch commit gitY2");
 		
 	}
 	
