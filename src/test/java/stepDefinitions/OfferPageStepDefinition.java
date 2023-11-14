@@ -40,6 +40,10 @@ public class OfferPageStepDefinition {
 		Thread.sleep(3000);
 		offerPageProductName=offerPage.getTextOfProductName();
 		
+		//Test1
+		//test2
+		//test3
+		//test4
 	
 	}
 	
