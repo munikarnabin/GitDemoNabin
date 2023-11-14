@@ -51,6 +51,8 @@ public class OfferPageStepDefinition {
 		//test9
 		//test10
 	
+		System.out.println("gitX commit practice");
+	
 	}
 	
 	public void switchToWindow()
